@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01">
+      <UniqueIdentifier>{3a04b4c9-fea3-4b04-b20f-33bdbaa0a93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01\test">
+      <UniqueIdentifier>{a0c77d89-baac-4a2c-a5a3-af02ccca4301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02">
+      <UniqueIdentifier>{602cd84a-3692-4392-b8de-14cc24fc712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02\test">
+      <UniqueIdentifier>{b8a7a63a-d905-435e-94aa-e7d015fc116a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03">
+      <UniqueIdentifier>{50428389-0064-4f4b-91ae-0c6a56446fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03\test">
+      <UniqueIdentifier>{791bb0bd-aaa9-4a2e-a74b-dd17033fc4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04">
+      <UniqueIdentifier>{dbdb89a8-061f-4ac8-a946-4b584dbc66f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05">
+      <UniqueIdentifier>{ffc5bac4-ffc8-4788-819f-5db8ccef0cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05\test">
+      <UniqueIdentifier>{2a92c954-68ca-4966-aedc-8580b09cfb88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BetweenAdder.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAdder.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="StringIO.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloading.cpp">
+      <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-1_1.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-1_2.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-1_3.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-1_4.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-2_1.cpp">
+      <Filter>소스 파일\02\test</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue2.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-3_1.cpp">
+      <Filter>소스 파일\03\test</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunc.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp1.cpp">
+      <Filter>소스 파일\05</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp2.cpp">
+      <Filter>소스 파일\05</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-4_1_source.cpp">
+      <Filter>소스 파일\05\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-4_1_header.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test01-4_1_main.cpp">
+      <Filter>소스 파일\05\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

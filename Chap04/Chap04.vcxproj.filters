@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01">
+      <UniqueIdentifier>{397512aa-10a7-46d9-a75b-84b89e2c6f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01\test">
+      <UniqueIdentifier>{f6d33c8c-c23e-42a4-9351-b7f468bcb6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02">
+      <UniqueIdentifier>{d039e7a6-ec8f-48fe-a7dd-8ec3e37118e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02\test">
+      <UniqueIdentifier>{29b6f983-682d-420a-9a88-cf2d3b658c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03">
+      <UniqueIdentifier>{4a67d7ea-fa12-40d1-9705-a90a87d89596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03\test">
+      <UniqueIdentifier>{feb41603-350a-4f63-a72f-10e64641ea3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04">
+      <UniqueIdentifier>{ad556906-f710-43e0-ba11-18d1ca9e198a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test04-1_1.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Encaps2.cpp">
+      <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="test04-2_1.cpp">
+      <Filter>소스 파일\02\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim2.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleConstructor.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim3.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructor.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="test04-3_1.cpp">
+      <Filter>소스 파일\03\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test04-3_2.cpp">
+      <Filter>소스 파일\03\test</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjArr.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjPtrArr.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerThis.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="UsefulThisPtr.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRef.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
