@@ -19,6 +19,18 @@
     <Filter Include="소스 파일\02">
       <UniqueIdentifier>{3e2d801e-315b-45fb-9177-4881f9d54396}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\02\test">
+      <UniqueIdentifier>{da496d02-4e10-416c-9654-e3b390374d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03">
+      <UniqueIdentifier>{b3d572a5-ff91-4e34-abf8-deb0e1bc7b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04">
+      <UniqueIdentifier>{ed85f560-a875-4f41-9013-7bcf43a36395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04\test">
+      <UniqueIdentifier>{6b4c2bfe-4bf7-4591-a0b8-90faee8b87dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EmployeeManager1.cpp">
@@ -32,6 +44,33 @@
     </ClCompile>
     <ClCompile Include="DerivDestOrder.cpp">
       <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="DestModel.cpp">
+      <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="test07-1_1.cpp">
+      <Filter>소스 파일\02\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test07-1_2.cpp">
+      <Filter>소스 파일\02\test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectedHeri.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="ISAinheritance.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="HASAInheritance.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="HASComposite.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="test07-2_1.cpp">
+      <Filter>소스 파일\04\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test07-2_2.cpp">
+      <Filter>소스 파일\04\test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
