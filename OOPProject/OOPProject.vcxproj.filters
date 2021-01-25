@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\BS7">
+      <UniqueIdentifier>{9a545625-51a0-43c1-81cf-91a7bc3201eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\BS7">
+      <UniqueIdentifier>{eaa58b56-5eca-40de-b95f-37ca7ed19117}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BS1.cpp">
@@ -27,10 +33,39 @@
     <ClCompile Include="BS5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BS6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BS7.cpp">
+      <Filter>소스 파일\BS7</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\BS7</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>소스 파일\BS7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BS2.cpp">
       <Filter>소스 파일</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h">
+      <Filter>헤더 파일\BS7</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount.h">
+      <Filter>헤더 파일\BS7</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount.h">
+      <Filter>헤더 파일\BS7</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>헤더 파일\BS7</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>헤더 파일\BS7</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

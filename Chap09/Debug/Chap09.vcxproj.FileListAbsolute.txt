@@ -1,0 +1,2 @@
+C:\Users\root\Desktop\cpp\Chap09\Debug\Chap09.exe
+C:\Users\root\Desktop\cpp\Chap09\Debug\Chap09.pdb

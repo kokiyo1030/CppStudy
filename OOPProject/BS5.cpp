@@ -6,12 +6,6 @@ const int NAME_LEN = 20;
 
 enum { MAKE = 1, DEPOSIT, WITHDRAW, INQUIRE, EXIT };
 
-void ShowMenu();
-void MakeAccount();
-void DepositMoney();
-void WithdrawMoney();
-void ShowAllAccInfo();
-
 class Account {
 private:
 	int accId;
