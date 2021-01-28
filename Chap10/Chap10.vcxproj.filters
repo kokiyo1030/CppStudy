@@ -13,5 +13,58 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\01">
+      <UniqueIdentifier>{bfb18d75-d765-43bc-8f94-329420371002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01\test">
+      <UniqueIdentifier>{50338d28-897e-4809-ba68-0b11688bca4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02">
+      <UniqueIdentifier>{ca4bf381-61c5-4568-9bd8-1ecf87d67d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02\test">
+      <UniqueIdentifier>{85c007e0-fbae-46ce-86c7-5cde9249d52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03">
+      <UniqueIdentifier>{17aa6251-9f87-4e12-a7c6-16a7ff698b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04">
+      <UniqueIdentifier>{912893eb-4752-4837-8724-baaeb1eacbd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FirstOperationOverloading.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="GFunctionOverloading.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="OverloadingOperation.cpp">
+      <Filter>소스 파일\01</Filter>
+    </ClCompile>
+    <ClCompile Include="test10-1_1.cpp">
+      <Filter>소스 파일\01\test</Filter>
+    </ClCompile>
+    <ClCompile Include="OneOpndOverloading.cpp">
+      <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="test10-2_1.cpp">
+      <Filter>소스 파일\02\test</Filter>
+    </ClCompile>
+    <ClCompile Include="PostOpndOverloading.cpp">
+      <Filter>소스 파일\02</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMultipleOperation.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="CommuMultipleOperation.cpp">
+      <Filter>소스 파일\03</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutput.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
+    <ClCompile Include="IterateConsoleOutput.cpp">
+      <Filter>소스 파일\04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
